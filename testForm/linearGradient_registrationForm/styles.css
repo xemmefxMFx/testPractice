@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --bgcl: #71b7e6;
+    --bgcll: #9b59b6;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, var(--bgcl), var(--bgcll));
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.2rem;
+    width: 30px;
+    background: linear-gradient(135deg, var(--bgcl), var(--bgcll));
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px 12px 0px;
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2);
+    margin-bottom: 15px;
+}
+
+.user-details .input-box input {
+    height: 2.5rem;
+    width: 90%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.user-details .input-box input:focus {
+    border-color: var(--bgcll);
+}
+
+form .gender-details .gender-title {
+    font-size: 1.8rem;
+    font-weight: 480;
+    letter-spacing: 1px;
+}
+
+form .gender-details .gender-catergory {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1rem 3rem 1rem 1rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+form button {
+    height: 5vh;
+    width: 95%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(135deg, var(--bgcl), var(--bgcll));
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+
+}

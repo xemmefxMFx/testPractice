@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://formsubmit.co/anhhuyeci@gmail.com" method="post">
+            <div class="title">Registration</div>
+            <div class="user-details">
+                <div class="input-box">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="input-box">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" id="tel" name="tel">
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="input-box">
+                    <label for="cfpassword">Confirm Password</label>
+                    <input type="password" id="cfpassword" name="cfpassword">
+                </div>
+            </div>
+            <div class="gender-details">
+                <span class="gender-title">Gender</span>
+                <div class="gender-catergory">
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="Male">
+                    </div>
+                    <div>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                    </div>
+                    <div>
+                        <label for="not">Prefer not to say</label>
+                        <input type="radio" id="not" name="gender" value="Prefer not to say">
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
