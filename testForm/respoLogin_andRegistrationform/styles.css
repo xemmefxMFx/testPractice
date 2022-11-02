@@ -95,6 +95,8 @@ body {
 
 .input-field i.showHidePw {
     right: 0;
+    cursor: pointer;
+    padding: 10px;
 }
 
 .form .checkbox-text {
