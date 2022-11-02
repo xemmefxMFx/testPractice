@@ -29,8 +29,23 @@ body {
     border-radius: 10px;
 }
 
+.container .forms {
+    width: 200%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    height: 440px;
+    transition: height 0.2s ease;
+}
+
 .container .form {
     padding: 30px;
+    width: 50%;
+    background-color: #fff;
+}
+
+.container.active .forms {
+    height: 600px;
 }
 
 .container .form .title {
