@@ -96,3 +96,34 @@ body {
 .input-field i.showHidePw {
     right: 0;
 }
+
+.form .checkbox-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input {
+    accent-color: #f00;
+    margin: 0 8px -2px 4px;
+}
+
+.form .text {
+    color: #333;
+    font-size: 14px;
+}
+
+.form a.text {
+    color: #4070f4;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
