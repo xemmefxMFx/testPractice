@@ -1,2 +1,81 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    /* reset default style */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add font family for the root */
+    font-family: 'Poppins', sans-serif;
+    --myblue: #4070f4;
+}
+
+body {
+    /* center the login panel and style bg color */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--myblue);
+}
+
+.container {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0 0 0 0.1);
+    border-radius: 10px;
+}
+
+.container .form {
+    padding: 30px;
+}
+
+.container .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.form .title::before {
+    /* style the slash blue color under the title with bottom*/
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: var(--myblue);
+    border-radius: 25px;
+}
+
+.form .input-field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    font-size: 16px;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    /* note: should be able to do translateY(50%)??? */
+    color: #999;
+    font-size: 23px;
+}
