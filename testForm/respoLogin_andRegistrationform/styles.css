@@ -127,3 +127,28 @@ body {
 .form a:hover {
     text-decoration: underline;
 }
+
+.form .button {
+    margin-top: 35px;
+}
+
+.form .button input {
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background-color: #4070f4;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.button input:hover {
+    background-color: #265df2;
+}
+
+.form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+}
