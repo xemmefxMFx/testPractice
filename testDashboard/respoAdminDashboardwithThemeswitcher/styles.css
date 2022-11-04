@@ -1,3 +1,5 @@
+/* Add general styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 :root {
@@ -117,4 +119,14 @@ b {
 
 .warning {
     color: var(--color-warning);
+}
+
+/* Style Grid Layout */
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
 }
