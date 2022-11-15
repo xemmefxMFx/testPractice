@@ -20,6 +20,10 @@ body {
     background-color: var(--myblue);
 }
 
+.shit {
+    margin-right: 30vw;
+}
+
 .container {
     position: relative;
     max-width: 430px;
