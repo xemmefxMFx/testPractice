@@ -1,5 +1,5 @@
 // import _ from 'lodash';
-import myName from './myName';
+import myRestaurantName from './myRestaurantName';
 
 function component() {
     const element = document.createElement('div');
@@ -8,7 +8,7 @@ function component() {
     // Lodash now imported by this script
     // element.innerHTML = _.join(['Hello','webpack'], ' ');
 
-    element.textContent = myName('Cody');
+    element.textContent = myRestaurantName('1946');
     return element;
 
 }
